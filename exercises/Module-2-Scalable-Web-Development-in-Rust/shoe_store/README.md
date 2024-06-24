@@ -23,7 +23,7 @@ diesel setup --database-url='my_project_test.sqlite
 
 SQLite:
 
-```
+```rust
 #[macro_use]
 extern crate diesel;
 extern crate dotenv;
@@ -58,7 +58,7 @@ pub fn establish_connection_test() -> SqliteConnection {
 ```
 PGSql:
 
-```
+```rust
 #[macro_use]
 extern crate diesel;
 extern crate dotenv;
